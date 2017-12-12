@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component render should render the image even if loading 1`] = `
+<Image
+  component={[Function]}
+  file={null}
+  imageCacheAction={
+    Object {
+      "download": [Function],
+      "downloadError": [Function],
+      "downloadSuccess": [Function],
+      "init": [Function],
+      "initError": [Function],
+      "initSuccess": [Function],
+      "resolve": [Function],
+    }
+  }
+  loading={true}
+  remote={true}
+  renderLoading={null}
+  source={
+    Object {
+      "uri": "http://foo.bar/image.png",
+    }
+  }
+/>
+`;
+
+exports[`component render should render the loading function 1`] = `null`;
+
+exports[`component render should render the local file 1`] = `
+<Image
+  component={[Function]}
+  file="file://local/image.png"
+  imageCacheAction={
+    Object {
+      "download": [Function],
+      "downloadError": [Function],
+      "downloadSuccess": [Function],
+      "init": [Function],
+      "initError": [Function],
+      "initSuccess": [Function],
+      "resolve": [Function],
+    }
+  }
+  loading={false}
+  remote={true}
+  renderLoading={null}
+  source={
+    Object {
+      "uri": "file://local/image.png",
+    }
+  }
+/>
+`;
+
+exports[`component render should render the remote file 1`] = `
+<Image
+  component={[Function]}
+  file={null}
+  imageCacheAction={
+    Object {
+      "download": [Function],
+      "downloadError": [Function],
+      "downloadSuccess": [Function],
+      "init": [Function],
+      "initError": [Function],
+      "initSuccess": [Function],
+      "resolve": [Function],
+    }
+  }
+  loading={false}
+  remote={false}
+  renderLoading={null}
+  source={4}
+/>
+`;

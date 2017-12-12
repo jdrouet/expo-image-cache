@@ -1,0 +1,69 @@
+{
+  "name": "expo-image-cache",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint source",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Jeremie Drouet <jeremie.drouet@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "expo": "^23.0.6",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-native": "^0.51.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-actions": "^2.2.1",
+    "redux-saga": "^0.16.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.3",
+    "babel-jest": "^21.2.0",
+    "babel-preset-react-native": "^4.0.0",
+    "chai": "^4.1.2",
+    "eslint": "^4.13.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.5.1",
+    "expo": "^23.0.6",
+    "jest": "^21.2.1",
+    "react": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-test-renderer": "^16.2.0",
+    "redux": "^3.7.2",
+    "redux-actions": "^2.2.1",
+    "redux-saga": "^0.16.0",
+    "regenerator-runtime": "^0.11.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true,
+      "browser": true,
+      "es6": true
+    },
+    "parser": "babel-eslint",
+    "extends": [
+      "airbnb"
+    ],
+    "rules": {
+      "arrow-parens": [
+        "error",
+        "always"
+      ],
+      "react/jsx-filename-extension": 0
+    }
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "react-native": "^0.51.0"
+  }
+}
